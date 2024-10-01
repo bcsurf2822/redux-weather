@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Sparklines, SparklinesLine } from "react-sparklines";
 
 
+
 function WeatherView() {
 
   const weather = useSelector((state) => state.weather);
